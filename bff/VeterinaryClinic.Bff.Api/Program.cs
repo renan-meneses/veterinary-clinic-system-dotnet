@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Serilog;
 using AutoMapper;
 using VeterinaryClinic.Bff.Api.Extensions;

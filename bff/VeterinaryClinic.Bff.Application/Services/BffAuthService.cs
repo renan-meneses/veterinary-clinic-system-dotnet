@@ -115,7 +115,7 @@ public class BffAuthService : IBffAuthService
 
             var menu = new NavigationMenuDto
             {
-                Items = BuildNavigationItems(response.Data.RoleName ?? "", response.Data.Permissions ?? new List<string>())
+                Items = BuildNavigationItems(response.Data.RoleName ?? "", (response.Data.Permissions ?? new List<string>()).ToList())
             };
 
             return ApiResponse<NavigationMenuDto>.Ok(menu);

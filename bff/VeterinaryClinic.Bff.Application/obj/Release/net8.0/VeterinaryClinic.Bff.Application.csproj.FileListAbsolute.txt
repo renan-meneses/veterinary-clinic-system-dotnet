@@ -4,3 +4,13 @@ C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Applic
 C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.AssemblyInfo.cs
 C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.csproj.CoreCompileInputs.cache
 C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.sourcelink.json
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\bin\Release\net8.0\VeterinaryClinic.Bff.Application.deps.json
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\bin\Release\net8.0\VeterinaryClinic.Bff.Application.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\bin\Release\net8.0\VeterinaryClinic.Bff.Application.pdb
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\bin\Release\net8.0\VeterinaryClinic.Bff.Domain.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\bin\Release\net8.0\VeterinaryClinic.Bff.Domain.pdb
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\Veterina.D332EC19.Up2Date
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\refint\VeterinaryClinic.Bff.Application.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.pdb
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\ref\VeterinaryClinic.Bff.Application.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VeterinaryClinic.Bff.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53d3bc32559b74e37ec05c2e08b6986653b4a00c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf2177f5d4ffbddf0168a5442d94b1c9bfab6b15")]
 [assembly: System.Reflection.AssemblyProductAttribute("VeterinaryClinic.Bff.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VeterinaryClinic.Bff.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

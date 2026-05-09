@@ -212,6 +212,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -224,7 +228,7 @@
               "target": "Package",
               "version": "[8.3.0, )"
             },
-            "Refit": {
+            "Refit.HttpClientFactory": {
               "target": "Package",
               "version": "[7.0.0, )"
             }

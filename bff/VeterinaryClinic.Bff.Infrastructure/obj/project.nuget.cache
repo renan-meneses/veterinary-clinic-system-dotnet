@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "GfLFT4WXPZg=",
+  "dgSpecHash": "FzUhmWHrrws=",
   "success": true,
   "projectFilePath": "C:\\Users\\renan\\Projetos\\veterinary-clinic-system\\bff\\VeterinaryClinic.Bff.Infrastructure\\VeterinaryClinic.Bff.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\renan\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -25,23 +27,11 @@
     "C:\\Users\\renan\\.nuget\\packages\\polly.core\\8.3.0\\polly.core.8.3.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\refit.httpclientfactory\\7.0.0\\refit.httpclientfactory.7.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
-    "C:\\Users\\renan\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\renan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1904",
-      "level": "Warning",
-      "message": "O pacote 'Refit' 7.0.0 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-3hxg-fxwm-8gf7",
-      "projectPath": "C:\\Users\\renan\\Projetos\\veterinary-clinic-system\\bff\\VeterinaryClinic.Bff.Infrastructure\\VeterinaryClinic.Bff.Infrastructure.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\renan\\Projetos\\veterinary-clinic-system\\bff\\VeterinaryClinic.Bff.Infrastructure\\VeterinaryClinic.Bff.Infrastructure.csproj",
-      "libraryId": "Refit",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
