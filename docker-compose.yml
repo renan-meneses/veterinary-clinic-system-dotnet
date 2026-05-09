@@ -1,0 +1,96 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: VeterinaryClinic.Api/Dockerfile
+    container_name: vetclinic-api
+    ports:
+      - "5000:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=veterinary_clinic;Username=postgres;Password=postgres123
+      Redis__ConnectionString: redis:6379
+      Jwt__Issuer: VeterinaryClinic
+      Jwt__Audience: VeterinaryClinicUsers
+      Jwt__Secret: CHANGE_ME_SUPER_SECRET_KEY_32CHARS_MINIMUM
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - vetclinic-network
+
+  bff:
+    build:
+      context: ./bff
+      dockerfile: VeterinaryClinic.Bff.Api/Dockerfile
+    container_name: vetclinic-bff
+    ports:
+      - "5001:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      Services__VeterinaryClinicApi__BaseUrl: http://api:8080
+      Jwt__Issuer: VeterinaryClinic
+      Jwt__Audience: VeterinaryClinicUsers
+      Jwt__Secret: CHANGE_ME_SUPER_SECRET_KEY_32CHARS_MINIMUM
+    depends_on:
+      - api
+    networks:
+      - vetclinic-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: vetclinic-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_BFF_BASE_URL: http://localhost:5001
+      VITE_APP_NAME: Veterinary Clinic Admin
+    depends_on:
+      - bff
+    networks:
+      - vetclinic-network
+
+  db:
+    image: postgres:16-alpine
+    container_name: vetclinic-db
+    environment:
+      POSTGRES_DB: veterinary_clinic
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - vetclinic-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: vetclinic-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - vetclinic-network
+
+networks:
+  vetclinic-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:
