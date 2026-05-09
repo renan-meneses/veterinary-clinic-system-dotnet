@@ -1,5 +1,5 @@
 import axios from 'axios'
-import type { AxiosInstance, AxiosRequestConfig, AxiosResponse, InternalAxiosRequestConfig } from 'axios'
+import type { AxiosInstance, AxiosResponse, InternalAxiosRequestConfig } from 'axios'
 
 const api: AxiosInstance = axios.create({
   baseURL: import.meta.env.VITE_BFF_BASE_URL || 'http://localhost:5001',

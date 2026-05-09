@@ -1,4 +1,4 @@
-namespace VeterinaryClinic.Bff.Domain.Dtos;
+namespace VeterinaryClinic.Bff.Application.Dtos;
 
 public class ApiResponse<T>
 {

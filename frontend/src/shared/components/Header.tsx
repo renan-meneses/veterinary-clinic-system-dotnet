@@ -1,5 +1,4 @@
 import { useAuthStore } from '@/shared/hooks/useAuthStore'
-import { Link } from 'react-router-dom'
 
 export function Header() {
   const { user, logout } = useAuthStore()

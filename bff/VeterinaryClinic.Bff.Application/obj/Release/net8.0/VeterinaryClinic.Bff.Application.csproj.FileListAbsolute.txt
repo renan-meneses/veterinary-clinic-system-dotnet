@@ -1,0 +1,6 @@
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.csproj.AssemblyReference.cache
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.AssemblyInfoInputs.cache
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.AssemblyInfo.cs
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.csproj.CoreCompileInputs.cache
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Application\obj\Release\net8.0\VeterinaryClinic.Bff.Application.sourcelink.json

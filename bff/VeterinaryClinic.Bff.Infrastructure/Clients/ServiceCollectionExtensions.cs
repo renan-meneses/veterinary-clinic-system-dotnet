@@ -1,6 +1,7 @@
 using Refit;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
+using VeterinaryClinic.Bff.Application.Clients;
 
 namespace VeterinaryClinic.Bff.Infrastructure.Clients;
 

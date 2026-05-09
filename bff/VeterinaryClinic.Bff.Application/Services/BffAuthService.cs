@@ -1,4 +1,4 @@
-using VeterinaryClinic.Bff.Infrastructure.Clients;
+using VeterinaryClinic.Bff.Application.Clients;
 using VeterinaryClinic.Bff.Application.Dtos;
 using VeterinaryClinic.Bff.Domain.Models;
 

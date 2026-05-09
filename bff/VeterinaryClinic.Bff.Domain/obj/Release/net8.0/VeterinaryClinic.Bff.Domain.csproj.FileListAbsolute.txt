@@ -1,0 +1,12 @@
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\bin\Release\net8.0\VeterinaryClinic.Bff.Domain.deps.json
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\bin\Release\net8.0\VeterinaryClinic.Bff.Domain.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\bin\Release\net8.0\VeterinaryClinic.Bff.Domain.pdb
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.AssemblyInfoInputs.cache
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.AssemblyInfo.cs
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.csproj.CoreCompileInputs.cache
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.sourcelink.json
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\refint\VeterinaryClinic.Bff.Domain.dll
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\VeterinaryClinic.Bff.Domain.pdb
+C:\Users\renan\Projetos\veterinary-clinic-system\bff\VeterinaryClinic.Bff.Domain\obj\Release\net8.0\ref\VeterinaryClinic.Bff.Domain.dll
